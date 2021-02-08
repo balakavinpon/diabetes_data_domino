@@ -1,1 +1,1 @@
-papermill training-Copy1.ipynb training-Comp.ipynb -p test_size "$1" -p max_iter $2 -p l1_ratio $3 -p stat_date $4  -p end_date $5
+papermill /mnt/code/training-Copy1.ipynb /mnt/artifacts/training-Complete.ipynb -p test_size $1 -p max_iter $2 -p l1_ratio $3 -p stat_date $4  -p end_date $5
