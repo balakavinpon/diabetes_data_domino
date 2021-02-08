@@ -1,0 +1,1 @@
+papermill training-Copy1.ipynb training-Complete.ipynb -p test_size "$1" -p max_iter $2 -p l1_ratio $3 -p stat_date $4 end_date $5
